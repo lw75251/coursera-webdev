@@ -1,9 +1,127 @@
+<!-- Browser Synce
+	browser-sync start --server --directory --files "*"
+-->
+
+<!-- 
+	Common Entity References
+	- "<" - &lt;
+	- ">" - &gt;
+	- "&" - &amp;
+	- Copyright - &copy;
+
+	Setting words to wrap to next line together instead of seperately
+	- &nbsp;
+
+	We place nbsp between words that you want to apply.
+	- Ex. Dear &nbsp; Leon &nbsp;,
+
+	NOTE: NEVER USE NON-BREAKING SPACE to "add" more space. Use <span> and
+	set margins
+
+	If any characters get "messed up" if we use other encodings, we can
+	use common entity references to fix. Example: " may not show, but
+	&quot;
+-->
+
+<!--
+	Hyper Links <a> </a>
+
+	Attributes: href= "website.com"
+				target="_blank" opens a new tab
+				title=
+
+	Design Note: Open new tabs when leaving website (because ppl won't return)
+
+	Fragment Identifiers
+	Linking Within: 
+	- href="#(ID of tag)" 
+	- Set name of <a> tag
+-->
+
+<!--
+	Displaying Images <img> (inline element)
+
+	Attributes: src="name.jpg"
+				width= "400"
+				height ="235"
+				alt = "Picture with quote"
+
+	NOTE: USE WIDTH AND HEIGHT to partition page so if picture is loading,
+	will see some jumping in page, and format will become variable
+-->
+
+
+<!-- All Possible Tags  -->
+<!-- Absolutely Necessary -->
 <!DOCTYPE html>
 <html>
+
+<!-- Important for Search Engines, and Describes entire document -->
 <head>
-	<title> Hello Coursera! </title>
+	<!-- Standard Character Font -->
+	<meta charset="utf-8">
+
+	<!-- Title of Page -->
+	<title> Title: Hello Coursera!</title>
+
+	<!-- Navigation of Page -->
+	<nav> Nav: Let's go here! </nav>
 </head>
+
+<!-- Content -->
 <body>
-<h1>Hello Coursera!</h1>
+	Body:
+	<!-- Headers (6 in total) -->
+	<h1> Header 1 
+
+		<!-- Blockline Tag (Adds \n before and after) -->
+		<div> 
+			Div: Block
+			My Cooking List
+
+			<!-- Bullet List -->
+			<ul>
+				<!-- A Bullet Point -->
+				<li> Fried Rice 
+					<ul>
+						<li> White Rice </li>
+						<li> Ground Beef </li>
+						<li> Soy Sauce </li>
+						<li> Frozen Vegis </li>
+					</ul>
+				</li> 
+			</ul>
+		</div>
+	</h1>
+
+	<h2> Header 2
+		<!-- Blockline Tag (Adds \n before and after) -->
+		<div> 
+			Div: Block
+			My Cooking List
+
+			<!-- Numbered List -->
+			<ol>
+				<!-- A Bullet Point -->
+				<li> Steps to Learn
+					<ol>
+						<li> Coursera </li>
+						<li> Udemy </li>
+						<li> UCSD </li>
+						<li> Books </li>
+					</ol>
+				</li> 
+			</ol>
+		</div>
+	</h2>
+
+	<h3> Header 3 </h3>
+	<h4> Header 4 </h4>
+	<h5> Header 5 </h5>
+	<h6> Header 6 </h6>
+	
+	<article> I am learning all the different tags </article>
+
+	
 </body>
 </html>

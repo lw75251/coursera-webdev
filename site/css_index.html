@@ -1,0 +1,137 @@
+<!-- 
+Element
+p {
+	color: blue;
+}
+
+
+Classes - Can Create classes to be applied, and specify in tag class="newclass"
+and can have multiple classes by simply adding space between
+.blue{
+	color: blue;
+}
+
+ID Selector
+#IDname {
+	color: blue;
+}
+
+Grouped Selectors
+
+div, .blue {
+	color: blue;
+}
+
+Combined Selectors
+p.big {
+	color: blue;
+	font-size: 20px;
+}
+
+All paragraphs with class = big will get this 
+
+Child Selector
+article > p {
+	color: blue;
+}
+All paragrpahs that are DIRECT children of articles (must be one nested below)
+
+article p {
+	color: blue;
+}
+Every paragraph inside an article (at any level)
+
+-->
+
+<!-- 
+	Can link an external stylesheet by using <link> </link>
+	if we have multiple 
+
+	Ex. <link rel="stylesheet" href="style.css"
+-->
+
+<!--
+	Commonly Used Font Combinations
+	p {
+		# Ensures that computer has the font
+		font-family: "Times New Roman", Times, serif;
+
+		// Example
+		.style{
+			font-family: Arial, Helvetica, sans-serif;
+			color: #Hexadecimal Color
+			font-style: itatlic;
+			font-weight: bold;
+			font-size: 24px; (default is 16px)
+			text-transform: uppercase;
+			text-align: right;
+
+			// Choices for font-size
+			font-size: 120%;  // We use % to have relative sizes still work
+							  // when zooming in a page
+					   2em; -> two times default (120%)
+
+
+			// Use Box-Sizing: border-box;
+			otherwise, margin, padding will add on extra size
+		}
+
+	}
+
+	// How to manage content too big
+	overflow: auto; -> Makes a Scroll Bar (Users usually hate it)
+			  hidden; -> Clip where ends
+-->
+
+<!-- Backgrounds (images win over color)
+	background-image: url("image.png")   (relative to CSS)
+	background-repeat: no-repeat;
+	background-position: right;
+
+	Can be combined into one
+	background: url("image.png") no-repeat right center;
+
+	Floating Elements:
+	- Margins do not collapse
+	- clear:left; does not allow any floating objects to left of it
+	- clear both; left and right
+
+	Relative Positioning
+	position: absolute; means it is taken out of document flow
+-->
+
+<!-- Media Queries
+
+	- Usually have some kind of base-style
+	- MAKE SURE YOU HAVE CLEAN AND SEPARATE BOUNDARIES SO THESE DONT OVERLAP
+
+	Media Queries - If style of media feature is true, then style applies
+	@media (min-width: 767px) and  (max-width: 991px) {
+	
+		p{
+			color:blue;
+		}
+	}
+
+	/*** LARGE DEVICES ***/
+	@media (min-width: 1200px) {
+	
+	}
+
+	/*** MEDIUM DEVICES ***/
+	@media ( min-width: 992px) and (max-width: 1199px) {
+	
+
+	Responsive Designs
+	
+	Content should be the same no matter what the container is
+	- Doesn't matter which media device is being used i.g. cpu, phone, tablet
+
+	12-Column Grid Responsive Layout
+	- Must specify <meta name="viewport" 
+	content="width=device-width, initial-scale=1">
+
+	since it will automatically zoomout to fit everything
+-->
+
+<!-- Twitter Bootstrap -->
