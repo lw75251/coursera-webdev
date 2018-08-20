@@ -1,0 +1,107 @@
+/** HEADER **/
+
+body {
+    background-color: #e06251;
+}
+
+#header-nav {
+    background-color: #51e096;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand {
+    padding-top: 25px;
+}
+
+
+/* Title Name */
+.navbar-header {
+	padding-bottom: 15px;
+}
+
+.navbar-brand h1 {
+    color: #7251e0;
+    font-size: 1.75em;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 0.75;
+    margin-bottom: 25px;
+}
+
+.navbar-brand a:hover,
+.navbar-brand a:focus {
+    background: #06554a;
+}
+
+#nav-list {
+	margin-top: 10px;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px;
+	background-color: #f65348
+}
+
+#menu-head{
+	background-color: #e077b1;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-align: center;
+	font-size: 1.75em;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.content {
+	height: 700px;
+	overflow: hidden;
+}
+
+.content p a {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.content p {
+	background-color: #a677e0;
+	padding-bottom: 15px;
+	margin-bottom: 0;
+}
+
+.content a {
+	margin-bottom: 0;
+	color: #000;
+}
+
+#Chicken-h {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+
+/* Header for each Section */
+h3 {
+	font-size: 1.5em;
+	background-color: #de78e3;
+	text-align: center;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 0;
+}
+
+li {
+	background-color: #b1cde3;
+	margin-bottom: 0;
+	color: #000;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: #000;
+}
