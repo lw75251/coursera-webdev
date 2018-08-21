@@ -1,0 +1,85 @@
+*{
+	font-family: 'Shadows Into Light', cursive;
+}
+#company-name{
+	margin-top: 0px;
+	color: black;
+}
+
+#nav-head{
+	margin-bottom: 20px;
+	border-bottom: 0px solid black;
+}
+
+#collapse_button{
+	margin-top: 17px;
+	border: 2px solid black;
+	background-color: yellow;
+}
+
+#nav-id{
+	background-color: red;
+	border-radius: 0px;
+	border-bottom: 3px solid black;
+	border-right: 3px solid black;
+	border-left: 3px solid black;
+	border-top: 3px solid black;*/
+}
+
+@media (max-width: 767px){
+#bs-example-navbar-collapse-1{
+	border-top: solid black;
+}
+}
+.icon-bar{
+	color: black;
+	border-color: solid black;
+	background-color: black ;
+}
+
+#nav-mobile-menu{
+	text-align: center;
+	background-color: yellow;
+	color: black;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#nav-mobile-menu li{
+	border-bottom: 1px solid black;
+}
+
+#nav-mobile-menu li:hover{
+	background-color: gray;
+}
+
+
+.navbar-default .navbar-nav>li>a {
+    color: black;
+}
+
+.navbar-default .navbar-nav li:nth-child(1) {
+    border-top: 1px solid black;
+}
+
+.main-head{
+	font-weight: bold;
+}
+
+body h1{
+	font-weight: bolder;
+}
+
+.main-content{
+	border: 5px solid white;
+	background-color: #FDFC7D;
+	margin-bottom: 50px;
+	font-size: 20px;
+	
+}
+
+.row{
+	margin-right: 30px;
+	margin-left:  30px;
+	margin-bottom: 30px;
+}
